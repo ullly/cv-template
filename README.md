@@ -13,7 +13,7 @@ Option 2:
 
 ## Usage
 
-To create "cv.pdf" run the following command: `pdflatex --jobname=cv main`. 
+To create `cv.pdf` run the following command: `pdflatex --jobname=cv main`. 
 
 Alternatively, Overleaf can be used. 
 
