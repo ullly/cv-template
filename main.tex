@@ -1,0 +1,111 @@
+\documentclass{article}
+
+\usepackage{scismic}
+
+\usepackage{hyperref}
+
+\title{TITLE}
+\author{AUTHOR}
+\date{DATE}
+
+% Custom commands defined in scismic.sty
+\cvname{NAME}
+\cvpersonalinfo{
+    ADDRESS \cvinfosep 
+    NUMBER \cvinfosep
+    \href{mailto:EMAIL}{EMAIL} \cvinfosep
+    \href{URL}{URL} \cvinfosep
+    \href{URL}{URL}
+}
+
+\begin{document}
+
+% \maketitle % LaTeX's default title constructed from \title,\author,\date
+
+\makecvtitle % Custom command constructing the CV title from \cvname, \cvpersonalinfo
+
+\section{Summary}
+
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+
+\section{Education}
+
+\cvsubsection{SCHOOL}[LOCATION][DEGREE][DATE]
+
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+
+\cvsubsection{SCHOOL}[LOCATION][CERTIFICATE][DATE]
+
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+
+\section{Experience}
+
+% Another custom command provide by scismic.sty.
+% 2nd, 3rd and 4th arguments are OPTIONAL
+\cvsubsection{COMPANY}[LOCATION][POSITION][DATE]
+
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+
+\cvsubsection{COMPANY}[LOCATION][POSITION][DATE]
+
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+
+\section{Projects}
+
+\begin{itemize}
+    \item \textbf{PROJECT TITLE} \hfill \emph{DATE}
+\begin{itemize}
+    \item DESCRIPTION
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+    \item \textbf{PROJECT TITLE} \hfill \emph{DATE}
+    \begin{itemize}
+        \item DESCRIPTION
+    \end{itemize}
+\end{itemize}
+
+\section{Awards}
+
+\begin{itemize}
+    \item TITLE \hfill \emph{DATE}
+    \item TITLE \hfill \emph{DATE}
+\end{itemize}
+ 
+\section{Skills}
+
+\begin{description}[widest=SKILL AREA]
+    \item [SKILL AREA] LIST OF SKILLS
+    \item [SKILL AREA] LIST OF SKILLS
+\end{description}
+ 
+\section{References}
+
+\begin{description}[widest=NAME]
+    \item[NAME] POSITION, COMPANY, LOCATION, \href{mailto:EMAIL}{EMAIL}
+    \item[NAME] POSITION, UNIVERSITY, LOCATION, \href{mailto:EMAIL}{EMAIL}
+\end{description}
+
+\section{Other Interests}
+
+\begin{description}[widest=INTEREST]
+    \item[INTEREST] DESCRIPTION
+    \item[INTEREST] DESCRIPTION
+\end{description}
+
+\end{document}
