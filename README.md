@@ -6,7 +6,7 @@ CV Template written in LaTeX. See `cv.pdf` for an example PDF output.
 
 Option 1:
 * Clone the repo. 
-* Get a TeX Live distribution. See the TeX Users Group [TeX live web page](https://tug.org/texlive/) for details. 
+* Get a TeX Live distribution. See the TeX Users Group [TeX Live web page](https://tug.org/texlive/) for details. 
 
 Option 2: 
 * As an alternative, Overleaf can be used. 
